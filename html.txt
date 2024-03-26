@@ -1,0 +1,114 @@
+!DOCTYPE html
+html lang=en
+
+head
+    meta charset=UTF-8
+    meta http-equiv=X-UA-Compatible content=IE=edge
+    meta name=viewport content=width=device-width, initial-scale=1.0
+    titleHometitle
+    link rel=stylesheet href=style.css
+    link rel=stylesheet type=textcss href=libbootstrap.css
+	link rel=stylesheet type=textcss href=libfont-awesome.min.css
+	link rel=stylesheet type=textcss href=libaos.css
+	script type=textjavascript src=libaos.jsscript
+	script type=textjavascript src=libjquery.jsscript
+	script type=textjavascript src=libjquery.color.jsscript
+	script type=textjavascript src=librandomColor.jsscript
+head
+
+body
+    div class=nav
+        input type=checkbox id=nav-check
+        div class=nav-header
+            div class=nav-title
+                a href= target=_blank CPU Schedulinga
+            div
+        div
+        div class=nav-btn
+            label for=nav-check
+                spanspan
+                spanspan
+                spanspan
+            label
+        div
+
+        div class=nav-links
+            a href=httpspathik455.github.ioFCFS target=_blankFCFSa
+            a href=httpspathik455.github.ioSJF target=_blankSJFa
+            a href=httpspathik455.github.ioSRTF target=_blankSRTFa
+            a href=httpspathik455.github.ioPriority target=_blankPriority Schedulinga
+            a href=httpsscorpyy10.github.ioTeam-members target=_blankTeama
+
+        div
+    div
+
+
+section
+      video playsinline autoplay muted loop poster=polina.jpg id=bgvid
+        source src=bg.mkv type=videowebm
+        source src=bg.mkv type=videomp4
+      video
+section
+
+
+
+
+
+    div class=container
+        div class=card
+            div class=box
+                div class=content
+                    h201h2
+                    h3FCFSh3
+                    pFirst Come First Served (FCFS) is the simplest and non-preemptive scheduling algorithm. In First
+                        Come First Served (FCFS), the process is allocated to the CPU in the order of their arrival.p
+                    a href=httpswww.geeksforgeeks.orgprogram-for-fcfs-cpu-scheduling-set-1 target=_blankRead Morea
+                    a href=httpspathik455.github.ioFCFS target=_blankDemoa
+                div
+            div
+        div
+
+        div class=card
+            div class=box
+                div class=content
+                    h202h2
+                    h3SJFh3
+                    pIn SJF, jobs are put into the ready queue as they come. Although a process
+                        with short burst time begins, the current process is removed or preempted from execution, and
+                        the job which is shorter is executed 1st.p
+                    a href=httpswww.geeksforgeeks.orgprogram-for-shortest-job-first-or-sjf-cpu-scheduling-set-1-non-preemptive target=_blankRead Morea
+                    a href=httpspathik455.github.ioSJF target=_blankDemoa
+                div
+            div
+        div
+
+        div class=card
+            div class=box
+                div class=content
+                    h203h2
+                    h3SRTFh3
+                    pShortest remaining time, also known as shortest remaining time first (SRTF), is a scheduling
+                        method that is a preemptive version of shortest job next scheduling.p
+                    a href=httpswww.geeksforgeeks.orgintroduction-of-shortest-remaining-time-first-srtf-algorithm target=_blankRead Morea
+                    a href=httpspathik455.github.ioSRTF target=_blankDemoa
+                div
+            div
+        div
+
+        div class=card
+            div class=box
+                div class=content
+                    h204h2
+                    h3Priority Schedulingh3
+                    pIn this,
+                        scheduler chooses the tasks to work as per the priority, which is different from other types of
+                        scheduling, for example, a simple round robin.p
+                    a href=httpswww.geeksforgeeks.orgpriority-cpu-scheduling-with-different-arrival-time-set-2 target=_blankRead Morea
+                    a href=httpspathik455.github.ioPriority target=_blankDemoa
+                div
+            div
+        div
+    div
+body
+
+html
